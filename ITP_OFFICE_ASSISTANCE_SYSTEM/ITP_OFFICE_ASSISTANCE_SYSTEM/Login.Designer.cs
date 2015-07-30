@@ -113,7 +113,7 @@
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = global::ITP_OFFICE_ASSISTANCE_SYSTEM.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(345, 66);
+            this.pictureBox1.Location = new System.Drawing.Point(345, 63);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(624, 140);
             this.pictureBox1.TabIndex = 0;
