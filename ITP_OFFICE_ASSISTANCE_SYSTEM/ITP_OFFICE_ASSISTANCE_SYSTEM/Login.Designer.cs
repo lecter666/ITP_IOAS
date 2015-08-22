@@ -34,6 +34,7 @@
             this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialTabSelector1 = new MaterialSkin.Controls.MaterialTabSelector();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.materialRaisedButton3 = new MaterialSkin.Controls.MaterialRaisedButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -96,6 +97,7 @@
             this.materialRaisedButton2.TabIndex = 4;
             this.materialRaisedButton2.Text = "EXIT";
             this.materialRaisedButton2.UseVisualStyleBackColor = true;
+            this.materialRaisedButton2.Click += new System.EventHandler(this.materialRaisedButton2_Click);
             // 
             // materialTabSelector1
             // 
@@ -119,11 +121,26 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // materialRaisedButton3
+            // 
+            this.materialRaisedButton3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.materialRaisedButton3.Depth = 0;
+            this.materialRaisedButton3.Location = new System.Drawing.Point(1031, 645);
+            this.materialRaisedButton3.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton3.Name = "materialRaisedButton3";
+            this.materialRaisedButton3.Primary = true;
+            this.materialRaisedButton3.Size = new System.Drawing.Size(90, 33);
+            this.materialRaisedButton3.TabIndex = 6;
+            this.materialRaisedButton3.Text = "BACK";
+            this.materialRaisedButton3.UseVisualStyleBackColor = true;
+            this.materialRaisedButton3.Click += new System.EventHandler(this.materialRaisedButton3_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1280, 720);
+            this.Controls.Add(this.materialRaisedButton3);
             this.Controls.Add(this.materialTabSelector1);
             this.Controls.Add(this.materialRaisedButton2);
             this.Controls.Add(this.materialSingleLineTextField2);
@@ -146,5 +163,6 @@
         private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField2;
         private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton2;
         private MaterialSkin.Controls.MaterialTabSelector materialTabSelector1;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton3;
     }
 }
