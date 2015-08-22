@@ -39,12 +39,12 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
                 f.Show();
                 this.Hide();
             }
-            else if(materialSingleLineTextField1.Text.Equals("2"))
+            else if (materialSingleLineTextField1.Text.Equals("2"))
             {
                 Admin_OverWatch f = new Admin_OverWatch();
                 f.Show();
                 this.Hide();
-            } 
+            }
             else if (materialSingleLineTextField1.Text.Equals("3"))
             {
                 Conservation f = new Conservation();
@@ -69,13 +69,32 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
                 f.Show();
                 this.Hide();
             }
-
+            else if (materialSingleLineTextField1.Text.Equals("7"))
+            {
+                Finanacial f = new Finanacial();
+                f.Show();
+                this.Hide();
+            }
            
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            this.WindowState = FormWindowState.Maximized;
+            this.MaximizeBox = false;
+        }
 
+        private void materialRaisedButton2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void materialRaisedButton3_Click(object sender, EventArgs e)
+        {
+            Welcome c = new Welcome();
+            c.Show();
+            this.Close();
         }
     }
+
 }

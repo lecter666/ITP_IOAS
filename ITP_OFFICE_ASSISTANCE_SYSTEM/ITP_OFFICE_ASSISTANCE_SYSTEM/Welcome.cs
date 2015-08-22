@@ -41,7 +41,7 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
 
         private void materialRaisedButton2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
     }
 }

@@ -69,6 +69,12 @@
     <Compile Include="Exploration.Designer.cs">
       <DependentUpon>Exploration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Finanacial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Finanacial.Designer.cs">
+      <DependentUpon>Finanacial.cs</DependentUpon>
+    </Compile>
     <Compile Include="Planing.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exploration.resx">
       <DependentUpon>Exploration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Finanacial.resx">
+      <DependentUpon>Finanacial.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Planing.resx">
       <DependentUpon>Planing.cs</DependentUpon>
