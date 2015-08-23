@@ -25,9 +25,9 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             return sb.ToString();
         }
 
-        public bool passwordcompair (string password, string username)
-        {
+       // public bool passwordcompair (string password, string username)
+    //    {
             
-        }
+      //  }
     }
 }
