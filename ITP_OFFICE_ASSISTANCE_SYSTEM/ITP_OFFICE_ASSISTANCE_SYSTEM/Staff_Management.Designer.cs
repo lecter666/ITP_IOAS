@@ -861,6 +861,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Staff_Management";
             this.Text = "Staff Management";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Staff_Management_Load);
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

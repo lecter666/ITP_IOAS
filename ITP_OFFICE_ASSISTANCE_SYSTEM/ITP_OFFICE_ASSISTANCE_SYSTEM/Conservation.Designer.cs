@@ -695,6 +695,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Conservation";
             this.Text = "Conservation";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Conservation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.materialTabControl1.ResumeLayout(false);

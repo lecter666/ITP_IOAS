@@ -80,8 +80,11 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
-            this.MaximizeBox = false;
+            
+           // this.FormBorderStyle = FormBorderStyle.None;
+           // this.WindowState = FormWindowState.Maximized;
+            //this.MaximizeBox = true;
+            //this.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size;
         }
 
         private void materialRaisedButton2_Click(object sender, EventArgs e)
@@ -91,9 +94,14 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
 
         private void materialRaisedButton3_Click(object sender, EventArgs e)
         {
-            Welcome c = new Welcome();
-            c.Show();
+            Welcome f = new Welcome();
+            f.Show();
             this.Close();
+        }
+
+        private void Login_Leave(object sender, EventArgs e)
+        {
+           
         }
     }
 

@@ -149,7 +149,9 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Login";
             this.Text = "login";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.Leave += new System.EventHandler(this.Login_Leave);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

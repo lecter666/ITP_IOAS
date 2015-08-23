@@ -21,7 +21,7 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Teal800, Primary.Teal900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.DeepOrange800, Primary.DeepOrange900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
 
         }
 
@@ -29,6 +29,8 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
         {
             tabPage1.Text = "Add New Plan";
             tabPage2.Text = "View plan Progress";
+
+            
         }
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)

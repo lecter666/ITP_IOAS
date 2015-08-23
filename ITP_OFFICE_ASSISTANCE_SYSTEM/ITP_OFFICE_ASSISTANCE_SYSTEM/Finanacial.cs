@@ -21,7 +21,7 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Cyan100, Primary.Teal900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Blue800, Primary.Blue900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
         }
 
         private void Finanacial_Load(object sender, EventArgs e)
@@ -30,6 +30,10 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             tabPage2.Text = "Budget Allocation";
             tabPage3.Text = "Miscellaneous Expenditure";
 
+            //this.FormBorderStyle = FormBorderStyle.None;
+            //this.WindowState = FormWindowState.Maximized;
+            //this.MaximizeBox = false;
+            //this.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size;
         }
 
         private void materialTabSelector1_Click(object sender, EventArgs e)

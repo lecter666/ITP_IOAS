@@ -352,6 +352,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Planing";
             this.Text = "Planing";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Planing_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.materialTabControl1.ResumeLayout(false);

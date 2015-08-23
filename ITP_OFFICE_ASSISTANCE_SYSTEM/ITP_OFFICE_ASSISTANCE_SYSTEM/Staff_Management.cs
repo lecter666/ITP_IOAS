@@ -21,7 +21,7 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Teal800, Primary.Teal900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Purple800, Primary.Purple900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
 
         }
 
@@ -35,6 +35,11 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             tabPage5.Text = "Salary Management";
             tabPage6.Text = "Leave Management";
             tabPage7.Text = "Reports";
+
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
+            this.MaximizeBox = false;
+            this.MaximumSize = Screen.PrimaryScreen.WorkingArea.Size;
 
         }
 
