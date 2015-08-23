@@ -22,7 +22,7 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Teal800, Primary.Teal900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Pink800, Primary.Pink900, Primary.BlueGrey500, Accent.Purple200, TextShade.WHITE);
 
         }
 
@@ -30,6 +30,9 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
         {
             tabPage1.Text = "Add Artifact Info";
             tabPage2.Text = "Change Artifact Info";
+
+            
+            
         }
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)

@@ -36,7 +36,7 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void materialRaisedButton2_Click(object sender, EventArgs e)

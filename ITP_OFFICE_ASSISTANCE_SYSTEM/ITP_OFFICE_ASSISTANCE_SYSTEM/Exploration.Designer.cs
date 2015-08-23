@@ -339,7 +339,7 @@
             // materialRaisedButton1
             // 
             this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(1074, 118);
+            this.materialRaisedButton1.Location = new System.Drawing.Point(1088, 128);
             this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialRaisedButton1.Name = "materialRaisedButton1";
             this.materialRaisedButton1.Primary = true;
@@ -360,6 +360,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Exploration";
             this.Text = "Exploration ";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Exploration_Load);
             this.materialTabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);

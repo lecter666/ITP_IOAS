@@ -21,7 +21,7 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Teal800, Primary.Teal900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Red800, Primary.Red900, Primary.BlueGrey500, Accent.Yellow400, TextShade.WHITE);
 
         }
 
@@ -35,6 +35,7 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             tabPage1.Text = " Add Excavation Site";
             tabPage2.Text = "Add Excavation Info ";
 
+            
         }
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)

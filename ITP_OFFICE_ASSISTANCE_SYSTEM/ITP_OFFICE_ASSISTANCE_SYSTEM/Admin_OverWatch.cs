@@ -21,7 +21,7 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            materialSkinManager.ColorScheme = new ColorScheme(Primary.Teal800, Primary.Teal900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
+            materialSkinManager.ColorScheme = new ColorScheme(Primary.Grey800, Primary.Grey900, Primary.BlueGrey500, Accent.Red200, TextShade.WHITE);
 
         }
 
@@ -40,15 +40,17 @@ namespace ITP_OFFICE_ASSISTANCE_SYSTEM
             tabPage6.Text = "Planing";
             tabPage7.Text = "Finance";
 
-           /* tabPage1.UseVisualStyleBackColor = false;
-            tabPage2.UseVisualStyleBackColor = false;
-            tabPage3.UseVisualStyleBackColor = false;
-            tabPage4.UseVisualStyleBackColor = false;
-            tabPage5.UseVisualStyleBackColor = false;
-            tabPage6.UseVisualStyleBackColor = false;
-            tabPage7.UseVisualStyleBackColor = false;
-            */
-           
+            
+
+            /* tabPage1.UseVisualStyleBackColor = false;
+             tabPage2.UseVisualStyleBackColor = false;
+             tabPage3.UseVisualStyleBackColor = false;
+             tabPage4.UseVisualStyleBackColor = false;
+             tabPage5.UseVisualStyleBackColor = false;
+             tabPage6.UseVisualStyleBackColor = false;
+             tabPage7.UseVisualStyleBackColor = false;
+             */
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
